@@ -53,7 +53,7 @@ library. We recommend using TIMER7 if not otherwhise used in one of Projects.
 	Enable this to use the independent watchdog.
 	This watchdog *cannot* be disabled during runtime. It uses an independent clock source (LSI) and can trigger an reset even if the main clock goes down. * It is not possible to use this watchdog if you want to use low power modes (sleep) because the only option to deactivate it is a reset(hardware) *
  * \_timeout (in ms):
-	Sets the maximum amount of time between calling tickle() in ms ( percision: 10ms, so avoid setting it lower ). Set this as low as possible. 
+	Sets the maximum amount of time between calling tickle() in ms ( percision: 10ms, so avoid setting it lower ). Set this as low as possible.
 * id:
 	Selects the hardware timer to use. We recommend *TIMER7*.
 
